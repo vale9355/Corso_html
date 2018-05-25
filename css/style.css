@@ -1,0 +1,9 @@
+* {
+    font-family: 'Times New Roman', Times, serif
+}
+
+img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+}

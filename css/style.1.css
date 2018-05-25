@@ -1,0 +1,58 @@
+* {
+    font-family: 'Times New Roman', Times, serif
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+header,
+footer {
+    border: 1px black solid;
+    text-align: center;
+    height: 100px;
+    color: blue;
+    font-size: 2em;
+}
+
+#content {
+    border: 2px dotted green;
+    position: relative;
+    color: orangered;
+}
+
+#sideMenu {
+    width: 30%;
+}
+
+#Main {
+    /*display: inline;*/
+    width: 70%;
+    color: darkgreen;
+}
+
+.withBorder {
+    /*metto il . davanti a withBorder perchè mi riferisco ad una classe*/
+    border: 1px solid gray;
+    color: black;
+}
+
+.titolo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2.titolo {
+    font-size: 34px;
+    text-decoration: underline;
+}
+
+#spesa>.item>img {
+    width: 300px;
+    height: auto;
+}
